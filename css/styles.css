@@ -673,8 +673,9 @@ margin-bottom: 8px;
    letter-spacing: 0.04em;
    line-height: 1.16667;
    color: #8e8f99;
-   display: inline-block;
+   display: block;
    margin-bottom: 4px;
+   line-height: 1.17;
 }
 
 .modal-icon-wrap {
@@ -689,10 +690,8 @@ fill: #2e2f42;
    transform: translateY(-50%);
 }
 
-.modal-btn {
-   display: block;
-   margin: 0 auto;
-}
+
+
 
 .modal-textarea {
    border: 1px solid rgba(46, 47, 66, 0.4);
@@ -778,7 +777,42 @@ fill: #2e2f42;
    color: #404bbf;
 }
 
-.submit {
+.modal-check-text {
+   font-size: 12px;
+   letter-spacing: 0.04em;
+   color: #8e8f99;
+   display: flex;
+   align-items: center;
+   a {
+      line-height: 1.33333;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: #4d5ae5;
+   }
+
+   span {
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+      border: 1px solid rgba(46, 47, 66, 0.4);
+      margin-right: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      fill: transparent;
+   }
+}
+
+.modal-check:checked + .modal-check-text span {
+   background-color: #404BBF;
+   border: none;
+   fill: #F4F4FD;
+}
+.modal-check-text {
+   margin-bottom: 24px;
+}
+
+.modal__button-submit {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
    font-weight: 500;
@@ -799,8 +833,8 @@ fill: #2e2f42;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.submit:hover,
-.submit:focus {
+.modal__button-submit:hover,
+.modal__button-submit:focus {
    background-color: #404bbf;
 }
 
