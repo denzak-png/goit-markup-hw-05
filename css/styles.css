@@ -615,10 +615,23 @@ display: flex;
    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover
+.modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404BBF;
+   border: none;
+      fill: #FFFFFF;
 }
+
+.modal-cross-btn {
+   fill: #2e2f42;
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}    
+
+.modal-close-btn:hover .modal-cross-btn,
+.modal-close-btn:focus .modal-cross-btn {
+   fill: #FFFFFF;
+}
+
 
 
 .modal-title {
