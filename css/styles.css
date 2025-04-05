@@ -729,6 +729,9 @@ display: flex;
 margin-bottom: 8px;
 }
 
+.modal-field .comment {
+   margin-bottom: 16px;
+}
 .modal-input {
    border: 1px solid rgba(46, 47, 66, 0.4);
    border-radius: 4px;
@@ -811,6 +814,7 @@ fill: #2e2f42;
       justify-content: center;
       fill: transparent;
    }
+   margin-bottom: 24px;
 }
 
 .modal-checkbox {
