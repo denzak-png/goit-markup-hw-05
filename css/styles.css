@@ -794,6 +794,7 @@ fill: #2e2f42;
 .modal-check-text {
    font-size: 12px;
    letter-spacing: 0.04em;
+   line-height: 1.17;
    color: #8e8f99;
    align-items: center;
    a {
