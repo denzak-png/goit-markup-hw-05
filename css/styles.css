@@ -573,6 +573,7 @@ display: flex;
    line-height: 1.5;
    color: #FFFFFF;
    margin-bottom: 16px;
+   letter-spacing: 0.02em;
 }
 
 .footer__subscribe-form {
@@ -597,6 +598,8 @@ display: flex;
    border: 1px solid #FFFFFF;
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
    outline: none;
+   line-height: 2;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer__subscribe-input::placeholder {
