@@ -831,6 +831,7 @@ fill: #2e2f42;
    align-items: center;
    justify-content: center;
    fill: transparent;
+   display: inline-flex;
 }
 
 .modal-checkbox-link {
