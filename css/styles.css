@@ -728,10 +728,11 @@ display: flex;
 .modal-field {
 margin-bottom: 8px;
 }
-
-.modal-field .comment {
+.modal__text-wrapper-field {
    margin-bottom: 16px;
 }
+
+
 .modal-input {
    border: 1px solid rgba(46, 47, 66, 0.4);
    border-radius: 4px;
@@ -814,6 +815,9 @@ fill: #2e2f42;
       justify-content: center;
       fill: transparent;
    }
+}
+
+.modal__check-field {
    margin-bottom: 24px;
 }
 
